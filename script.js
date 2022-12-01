@@ -76,6 +76,15 @@ function starFireChangeHp(){
     $('.hp-meter').val(hpMeter -= 25)
     $('.hp-text').text(`${hpMeter} HP`)
 }
+
+//GAME OVER//
+function fungusDead(){
+    if( hpMeter <= 0 ){
+        $('.enemy')
+    }
+}
+        
+
     // 🧠 Remember
     // - Handle events that ->
     // - Updates state which is ->
